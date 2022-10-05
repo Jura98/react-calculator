@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Graduate&display=swap");
+.screen {
+  margin-bottom: .5em;
+  background-color: #ffc889;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7) inset;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7) inset;
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7) inset;
+}
+.screen span {
+  display: flex;
+  justify-content: right;
+  background-color: #ffc889;
+  height: 2em;
+  font-family: "Graduate", cursive;
+  color: rgb(39, 39, 39);
+}
+
+.screen .result {
+  font-weight: bolder;
+  font-size: 1.6em;
+}
+

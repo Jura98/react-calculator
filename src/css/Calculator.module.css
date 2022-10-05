@@ -1,0 +1,30 @@
+* {
+    background-color: rgb(29, 29, 29);
+  }
+
+  .wrapper {
+    padding: 1.5em;
+    margin: 2em auto;
+    width: 17%;
+    border-radius: 10px;
+    background: #272727;
+    box-shadow: inset -5px -5px 4px #131313,
+                inset 5px 5px 4px #3b3b3b;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .wrapper {
+      margin: auto;
+      width: auto;
+    }
+  }
+  
+  @media screen and (max-width: 776px) {
+    .wrapper {
+      margin:  auto;
+      width: auto;
+    }
+  }
+  
+  
+  

@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Graduate&display=swap");
+.ops{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-auto-rows: auto;
+    background-color: rgb(39, 39, 39);
+}
+.ops button{
+    padding: 1em;
+    font-size: 1.3em;
+    margin: .2em ;
+    border: none;
+    border-radius: 3px;
+    background: #272727;
+    box-shadow: inset -2px -2px 5px #131313,
+                inset 2px 3px 5px #3b3b3b;
+    color: rgb(209, 72, 72);
+}
+button:hover{
+    scale: .95;
+}
+button:active{
+    scale: .9;
+    box-shadow: inset 5px 5px 3px #1f1f1f,
+    inset -5px -5px 3px #2f2f2f;
+}
+@media screen and (max-width: 767px) and (max-width: 1023px) {
+    .ops button{
+        margin: 0.2em ;
+
+    }
+}
+
+
+  
+  
